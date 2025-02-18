@@ -67,7 +67,7 @@ function playRound() {
         // Determine Round Winner
         if (roundSum > highestRoundScore) {
             highestRoundScore = roundSum;
-            roundWinner = `🏆 Player ${i + 1} wins this round with ${roundSum} points! 🎉`;
+            roundWinner = `🏆 Player ${i + 1} wins this round with ${roundSum} points!!!`;
         }
 
         gameArea.appendChild(playerDiv);
